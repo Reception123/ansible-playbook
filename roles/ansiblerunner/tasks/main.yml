@@ -1,0 +1,11 @@
+---
+
+- name: Install ansible python package
+  pip: name=ansible state=present
+
+- name: Install packages (latest)
+  apt: pkg={{item}} state=latest
+  with_items:
+    # Already installed during setup but lets make sure it is at the latest version
+    - python-pip
+    - git
