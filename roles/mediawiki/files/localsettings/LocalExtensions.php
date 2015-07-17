@@ -245,6 +245,7 @@ switch( $wgDBname ) {
 		break;
 	case 'poserdazfreebieswiki':
 		require_once( "$IP/extensions/MultiUpload/MultiUpload.php" );
+		require_once( "$IP/extensions/MultiCategorySearch/MultiCategorySearch.php" );
 		break;
 	case 'spiralwiki':
 		require_once( "$IP/extensions/cldr/cldr.php" );
