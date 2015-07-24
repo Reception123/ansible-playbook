@@ -1569,6 +1569,7 @@ $wgConf->settings = array(
 		'+testwiki' => array(
 			'bureaucrat' => array(
 				'unblockself' => true, // Consensus per https://test.orain.org/o/j
+				'bureaucratprotect' => true,
 			),
 			'interwikitest' => array(
 				'read' => true, //so it can be assigned
@@ -1978,6 +1979,7 @@ $wgConf->settings = array(
 	'wgAllowUserCss' => array(
 		'default' => true,
 	),
+	'wgRestrictionLevels' => array( 'testwiki' => 'bureaucratprotect' ),
 	// /Users
 );
 
