@@ -14,7 +14,7 @@ switch( $wgDBname ) {
 		require_once( "$IP/extensions/Disambiguator/Disambiguator.php" );
 		require_once( "$IP/extensions/EmbedVideo/EmbedVideo.php" );
 		require_once "$IP/extensions/googleAnalytics/googleAnalytics.php";
-		$wgGoogleAnalyticsAccount = "UA-58596506-3";
+		$wgGoogleAnalyticsAccount = "UA-58596506-3";e
 		require_once( "$IP/extensions/HighlightLinksInCategory/HighlightLinksInCategory.php" );
 		require_once( "$IP/extensions/ImageMap/ImageMap.php" );
 		require_once( "$IP/extensions/LabeledSectionTransclusion/lst.php" );
@@ -141,6 +141,7 @@ switch( $wgDBname ) {
 		require_once( "$IP/extensions/googleAnalytics/googleAnalytics.php" );
 		$wgGoogleAnalyticsAccount = "UA-58596506-2";
 		require_once( "$IP/extensions/HeaderTabs/HeaderTabs.php" );
+		require_once(" $IP/extensions/HTMLets/HTMLets.php" );
 		require_once( "$IP/extensions/ImageMap/ImageMap.php" );
 		require_once( "$IP/extensions/Math/Math.php" );
 		require_once( "$IP/extensions/MsLinks/MsLinks.php" );
@@ -213,6 +214,10 @@ switch( $wgDBname ) {
 		$wgUploadPath = "$wgScriptPath/img_auth.php";
 		$wgUploadDirectory = '/mnt/mediawiki/private/uploads/jasperinternal.orain.org/images'; // Directory inaccessible via web access
 		break;
+	case 'jicigagnonwiki'
+		require_once(" $IP/extensions/HTMLets/HTMLets.php" );
+		break;
+
 	case 'hmwiki':
 		break;
 	case 'linuxunixwiki':
