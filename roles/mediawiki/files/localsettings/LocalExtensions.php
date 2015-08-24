@@ -177,6 +177,7 @@ switch( $wgDBname ) {
 		require_once( "$IP/skins/BlueSky/BlueSky.php" );
 		require_once( "$IP/extensions/Tabs/Tabs.php" );
 		require_once( "$IP/extensions/Timeline/Timeline.php" );
+		require_once( "$IP/extensions/WikiSEO/WikiSEO.php");
 		$fontFile = 'ascii'; // Use the internal Ploticus font
 		require_once( "$IP/extensions/WebChat/WebChat.php" );
 		$wgWebChatServer  = ''; // Not needed due to wgWebChatClient --SPF
