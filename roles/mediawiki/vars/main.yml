@@ -663,7 +663,7 @@ extensions:
   - {
     repo: 'https://github.com/tinymighty/wiki-seo.git',
     dest: 'extensions/WikiSEO',
-    version: 'master'
+    version: 'REL1_22'
     }
   - {
     repo: 'https://github.com/wikimedia/mediawiki-extensions-GoogleAdSense.git',
