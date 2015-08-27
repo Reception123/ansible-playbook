@@ -144,7 +144,6 @@ switch( $wgDBname ) {
 		require_once( "$IP/extensions/HTMLets/HTMLets.php");
 		require_once( "$IP/extensions/ImageMap/ImageMap.php" );
 		require_once( "$IP/extensions/Math/Math.php" );
-		require_once( "$IP/extensions/Memento/Memento.php" );
 		require_once( "$IP/extensions/MsLinks/MsLinks.php" );
 		require_once( "$IP/extensions/MsUpload/MsUpload.php" );
 		require_once( "$IP/extensions/MultiCategorySearch/MultiCategorySearch.php" );
